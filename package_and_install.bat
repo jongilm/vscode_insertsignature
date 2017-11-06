@@ -1,4 +1,9 @@
 @echo off
+rem git init
+rem git add .
+rem git commit -m "Initial checkin"
+rem git remote add origin https://github.com/jongilm/vscode_insertsignature.git
+rem git push origin master
 rem -----------------------------------------------------
 rem npm install -g vsce
 rem C:\Users\jonathang\AppData\Roaming\npm\vsce -> C:\Users\jonathang\AppData\Roaming\npm\node_modules\vsce\out\vsce
@@ -20,5 +25,6 @@ pause
 
 code --list-extensions|grep jg
 echo Expect: jongilm.jgInsertSignature
+echo         jongilm.jgInsertTag
 pause
 

@@ -17,7 +17,7 @@
     "contributes": {
         "commands": [{
             "command": "extension.jgInsertSignature",
-            "title": "JG Insert Signature"
+            "title": "jgInsertSignature"
         }],
         "configuration": {
             "title": "jgInsertSignature Configuration",
